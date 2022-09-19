@@ -130,15 +130,15 @@ export const config = {
 //     ...
 //   ],
 
-//   /** 插槽 */
+  /** 插槽 */
 
-//   /** 你可以在这里写超多的你想显示的内容了！
-//     * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
-//     * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
-//     * */
+  /** 你可以在这里写超多的你想显示的内容了！
+    * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
+    * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }}
+    * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "daily", contents: "又是想老婆的一天"},
+    {"keyword": "daily", contents: "不准说我非主流，天天都要碎碎念，烦球死你。 现在是早上8点钟，以后都是这个时间了，醒来就可以看到我"},
     // 这样配置的话，就会每次随机选一句话发送
 //     {"keyword": "lover_prattle", contents: [
 //       "因为太喜欢你，所以看谁都像是情敌。",
