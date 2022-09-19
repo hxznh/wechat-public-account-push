@@ -24,18 +24,18 @@ export const config = {
    *    // 你想对他发送的模板消息的模板ID
    *    useTemplateId: "zjVglIuCXo4CsraXWEio1iP7sZJ7IQEES9lDsgc4yOU",
    *    // 他点击详情后跳转的页面,你可以设置成微博的热榜，也可以设置成其他，网址一定要填对；不填对也没关系，随便你，会打不开而已。
-   *    openUrl: "https://wangxinleo.cn"
+   *    openUrl: "https://zhengjunzeng.gitee.io/"
    *   },
    * ]
    */
   USERS: [
     {
       // 想要发送的人的名字
-      name: "姐姐",
+      name: "老婆",
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oUDls5hYJLlQA2AGQVZ954DdMjmg",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "totZYkVTGqp0AkJu_vPHoC7f-x0QgaIYLh_hOlmpPNo",
+      useTemplateId: "N_GXhij_egq6hA_01RCH8qMW_l8NBIg9K3IOLY_SKAk",
       // 所在省份
       province: "重庆",
       // 所在城市
@@ -68,7 +68,7 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "uNd8Oss7_26pTtLQx2Dthr9STE71OmgTU2NQfuP_ttA",
+  CALLBACK_TEMPLATE_ID: "N_GXhij_egq6hA_01RCH8qMW_l8NBIg9K3IOLY_SKAk",
 
   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
   CALLBACK_USERS: [
@@ -79,37 +79,6 @@ export const config = {
       id: "oUDls5hYJLlQA2AGQVZ954DdMjmg",
     },
   ],
-
-//   /**
-//    * 信息配置
-//    */
-
-//   /** 天气相关 */
-
-//   // 默认所在省份, USERS 中没填的话, 会默认拿这里的省份
-//   PROVINCE: "广东",
-//   // 默认所在城市, USERS 中没填的话, 会默认拿这里的城市
-//   CITY: "惠州",
-
-//   /** 重要节日相关 */
-
-//   /**
-//    * 重要节日，修改名字为对应需要显示的名字, date 仅填月日即可, 请严格按照示例填写
-//    * type必须填！ 只能 “生日” 和 “节日” 二选一!
-//    * --- 阴历配置开始 ---
-//    * 如果日期使用阴历，请在 “生日” 或 "节日“ 前添加 * 符号
-//    * --- 阴历配置结束 ---
-//    * 生日时，name填写想要展示的名字，你可以填“美丽可爱亲亲老婆”
-//    * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
-//    */
-//   FESTIVALS: [
-//     // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
-//     {"type": "*生日", "name": "老婆", "year": "1996", "date": "09-09"},
-//     {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-//     // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-//     {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-//     {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
-//   ],
 
 //   /**
 //    * 限制重要节日的展示条目, 需要填写数字;
@@ -131,9 +100,9 @@ export const config = {
 //     {"keyword": "marry_day", date: "2022-09-09"},
 //     // 退伍日
 //     {"keyword": "ex_day", date: "2022-09-10"},
-//     // sakana日
-//     // {"keyword": "sakana_day", date: "2022-01-06"},
-//     // ...
+//     sakana日
+//     {"keyword": "sakana_day", date: "2022-01-06"},
+//     ...
 //   ],
 
 //   /** 插槽 */
@@ -144,7 +113,7 @@ export const config = {
 //     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "daily", contents: "test"},
+    {"keyword": "daily", contents: "很想老婆的一天"},
     // 这样配置的话，就会每次随机选一句话发送
 //     {"keyword": "lover_prattle", contents: [
 //       "因为太喜欢你，所以看谁都像是情敌。",
