@@ -35,7 +35,7 @@ export const config = {
       // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: "oUDls5hq_Ks4pQRKu2hc4Cp-LIkM",
       // 你想对他发送的模板消息的模板ID
-      useTemplateId: "W_NnREeg8ITziuzeSO4hr0CLO0YrecFlpo-FcCIHTwo",
+      useTemplateId: "CkDlx3xw-rTLuZBEnpibq3wM3ZMisEvV8XhspeyZQH0",
       // 所在省份
       province: "重庆",
       // 所在城市
@@ -60,6 +60,31 @@ export const config = {
         // 在一起的日子
         {"keyword": "love_day", date: "2021-11-01"},
       ]
+    },
+    // 回执单
+    {
+      // 想要发送的人的名字
+      name: "老婆",
+      // 扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: "oUDls5hYJLlQA2AGQVZ954DdMjmg",
+      // 你想对他发送的模板消息的模板ID
+      useTemplateId: "CkDlx3xw-rTLuZBEnpibq3wM3ZMisEvV8XhspeyZQH0",
+      // 所在省份
+      province: "重庆",
+      // 所在城市
+      city: "重庆",
+      openUrl: "https://zhengjunzeng.gitee.io/",
+      // 专属节日提醒，如果你在这里填写了节日提醒，就不会执行FESTIVALS的提醒了, 和FESTIVALS的配置方法相同，可以往下查看，我这里就不重复写了
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {"type": "*生日", "name": "老婆", "year": "2002", "date": "06-26"},
+        {"type": "节日", "name": "恋爱纪念日", "year": "2021", "date": "11-01"},
+      ],
+      // 专属纪念日/倒数日，如果你在这里填写了纪念日/倒数日，就不会计算CUSTOMIZED_DATE_LIST的日子了, 和CUSTOMIZED_DATE_LIST的配置方法相同，可以往下查看，我这里就不重复写了
+      customizedDateList: [
+        // 在一起的日子
+        {"keyword": "love_day", date: "2021-11-01"},
+      ]
     }
   ],
 
@@ -68,17 +93,17 @@ export const config = {
    */
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: "W_NnREeg8ITziuzeSO4hr0CLO0YrecFlpo-FcCIHTwo",
+//   CALLBACK_TEMPLATE_ID: "W_NnREeg8ITziuzeSO4hr0CLO0YrecFlpo-FcCIHTwo",
 
-  // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
-  CALLBACK_USERS: [
-    {
-      // 一般都填自己
-      name: "zjz",
-      // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: "oUDls5hYJLlQA2AGQVZ954DdMjmg",
-    },
-  ],
+//   // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
+//   CALLBACK_USERS: [
+//     {
+//       // 一般都填自己
+//       name: "zjz",
+//       // 自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+//       id: "oUDls5hYJLlQA2AGQVZ954DdMjmg",
+//     },
+//   ],
 
 //   /**
 //    * 限制重要节日的展示条目, 需要填写数字;
@@ -113,7 +138,7 @@ export const config = {
 //     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "daily", contents: "很想老婆的一天"},
+    {"keyword": "daily", contents: "请你吃顿午饭"},
     // 这样配置的话，就会每次随机选一句话发送
 //     {"keyword": "lover_prattle", contents: [
 //       "因为太喜欢你，所以看谁都像是情敌。",
