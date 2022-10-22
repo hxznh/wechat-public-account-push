@@ -138,7 +138,7 @@ export const config = {
     * */
   SLOT_LIST: [
     // 这样配置的话，就会每次发送这句话
-    {"keyword": "daily", contents: "柚子还挺好吃滴，也不贵，几块钱都能买两颗了，还是红心柚。"},
+    {"keyword": "daily", contents: "晚上就有老婆买的芋泥雪贝和水果吃了，嘻嘻。"},
     // 这样配置的话，就会每次随机选一句话发送
 //     {"keyword": "lover_prattle", contents: [
 //       "因为太喜欢你，所以看谁都像是情敌。",
